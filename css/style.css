@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&family=Teko:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+body{
+    background-color: #FFA384;
+}
+
+th {
+    border: 3px solid black;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Teko', sans-serif;
+}
+tr,th {
+    padding: 3px;
+}
+button {
+    font-size: 1rem;
+    padding: 0.3rem;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Teko', sans-serif;
+    /* background-color:#74BDCB; */
+}
+
+button :hover{
+    background-color: #FFAEBC;
+}
